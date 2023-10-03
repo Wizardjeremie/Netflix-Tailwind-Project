@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primarybg: '#1a1a1a', 
+      },
+      fontFamily: {
+        body: ['Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
