@@ -312,7 +312,7 @@ summary {
 
 /*
 Removes the default spacing and border for appropriate elements.
-*/
+
 
 blockquote,
 dl,
@@ -328,7 +328,7 @@ figure,
 p,
 pre {
   margin: 0;
-}
+} */
 
 fieldset {
   margin: 0;
@@ -536,6 +536,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-40{
+  margin: 10rem;
+}
+
 .flex{
   display: flex;
 }
@@ -544,24 +548,24 @@ video {
   width: 8rem;
 }
 
-.w-6{
-  width: 1.5rem;
+.w-40{
+  width: 10rem;
 }
 
-.w-2{
-  width: 0.5rem;
+.w-8{
+  width: 2rem;
 }
 
-.w-1{
-  width: 0.25rem;
+.w-4{
+  width: 1rem;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-20{
   width: 5rem;
-}
-
-.w-40{
-  width: 10rem;
 }
 
 .flex-row{
@@ -574,6 +578,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.border{
+  border-width: 1px;
 }
 
 .bg-primarybg{
@@ -590,9 +598,18 @@ video {
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, sans-serif;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-lg{
+  font-size: 1.125rem;
 }
 
 .text-gray-400{

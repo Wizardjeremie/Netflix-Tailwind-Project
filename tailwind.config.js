@@ -8,7 +8,10 @@ module.exports = {
       },
       fontFamily: {
         body: ['Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'sans-serif']
-      }
+      },
+      fontSize: {
+        lg: '1.125rem',
+      },
     },
   },
   plugins: [],
